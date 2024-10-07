@@ -12,5 +12,3 @@ for (const keys of tps) {           //cycle
 
 
 console.dir(hash);  //result
-
-//другий,раціональніший спосіб 
