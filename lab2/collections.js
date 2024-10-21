@@ -17,6 +17,5 @@ const hash = {
     'Simon Petliura': '+380569801488',
     'Patrick Bateman': '+380966965692'
 }
-
 const findPhoneByName1 = (name) => hash[name]
 console.log(findPhoneByName1('Patrick Bateman'))

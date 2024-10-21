@@ -13,7 +13,7 @@ function rangeOdd(start = 15, end = 30) {
     const oddNums = []
     let num = start
     for (num; num <= end; num++) {
-        if (num % 2 === 0) continue
+        if (num % 2) continue
         oddNums.push(num)
     }
     return oddNums
