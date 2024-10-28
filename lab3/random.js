@@ -3,8 +3,8 @@ function random(min, max) {
         max = min
         min = 0
     }
-    let tempo = Math.random() * (max - min + 1) + min
-    randomInt = Math.floor(tempo)
+    let tempo = Math.random() * (max - min + 1) //+ min
+    randomInt = Math.floor(tempo) + min
     return randomInt
 }
 
