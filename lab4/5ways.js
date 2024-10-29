@@ -1,6 +1,6 @@
 function sum(...args) {
 
-    if ([...args].some(char => typeof char !== 'number') ||
+    if ([...args].some(char => typeof char !== 'number' || isNaN(char)) || 
         [...args].length === 0) {
         return 0
     }
