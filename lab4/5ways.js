@@ -1,6 +1,7 @@
 function sum(...args) {
 
-    if ([...args].length === 0) {
+    if ([...args].some(char => typeof char !== 'number') ||
+        [...args].length === 0) {
         return 0
     }
 
